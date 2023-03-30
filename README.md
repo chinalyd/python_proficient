@@ -1,2 +1,1 @@
-# python_proficient
-Review python with some programming practice.
+Reveiw the basic syntax and framework of python
