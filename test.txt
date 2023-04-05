@@ -1,0 +1,10 @@
+>>> from wen import grade
+>>> grade(90)
+'Excellent!'
+>>> grade(85)
+'Good!'
+>>> grade(65)
+'Pass!'
+>>> grade(10)
+'Fail!'
+

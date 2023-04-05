@@ -1,0 +1,7 @@
+fo = open('456.txt', 'r')
+print('File name: ',fo.name)
+line = fo.readlines()
+print('The data read: %s'%(line))
+line = fo.readlines(2)
+print('The data read: %s'%(line))
+fo.close()

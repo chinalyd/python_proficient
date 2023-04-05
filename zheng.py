@@ -1,0 +1,5 @@
+fo = open('456.txt', 'wb')
+print('File name:',fo.name)
+fid=fo.fileno()
+print('File "456.txt"s file descriptor: ',fid)
+fo.close()
