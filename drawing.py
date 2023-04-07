@@ -1,6 +1,6 @@
 import tkinter as Tkinter
 class MyButton:
-    def __inint__(self, root, canvas, label, type):
+    def __init__(self, root, canvas, label, type):
         self.root = root
         self.canvas = canvas
         self.label = label
@@ -72,11 +72,13 @@ class MyLabel:
         self.text.set('Draw Line')
         self.label = Tkinter.Label(root, textvariable = self.text, fg = 'red', width = 50)
         self.label.pack(side = 'left')
-root = Tkinter.Tk()
-canvas = MyCanvas(root)
-label = MyLabel(root)
-MyButton(root,canvas,label,0)
-MyButton(root,canvas,label,1)
-MyButton(root,canvas,label,2)
-MyButton(root,canvas,label,3)
-root.mainloop()
+
+if __name__ == '__main__':
+    root = Tkinter.Tk()
+    canvas = MyCanvas(root)
+    label = MyLabel(root)
+    MyButton(root,canvas,label,0)
+    MyButton(root,canvas,label,1)
+    MyButton(root,canvas,label,2)
+    MyButton(root,canvas,label,3)
+    root.mainloop()
