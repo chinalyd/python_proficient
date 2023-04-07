@@ -26,7 +26,7 @@ def cmd():
 n = 0
 root = tkinter.Tk()
 buttontext = tkinter.StringVar()
-buttontex.set('AAAAl')
+buttontext.set('AAAAl')
 button = tkinter.Button(root, textvariable = buttontext, command = cmd)
 button.pack()
 root.mainloop()
