@@ -1,5 +1,5 @@
 import pymysql
-db = pymysql.connect("localhost","root","","TESTDB")
+db = pymysql.connect("localhost","root","","TESTEDB")
 cursor=db.cursor()
 sql="drop table if exists employee"
 cursor.execute(sql)
